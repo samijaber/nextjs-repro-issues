@@ -1,7 +1,6 @@
 // Removing this banner fixes the app
 "use server";
-const o = () => {
+
+export const a = () => {
   console.log("action");
 };
-
-export { o as a };
